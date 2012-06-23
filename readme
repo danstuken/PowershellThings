@@ -2,3 +2,14 @@ This is just a set of files that contain functions to make doing stuff in powers
 
 To make use of any of the scripts, edit the powershell profile file (see value of $profile) thus:
 . 'C:\path\to\the\ps1fileiwant.ps1'
+
+There is a simple install/install.ps1 script included.
+
+*WARNING*
+the install script comes with no warranty. If it eats your
+firstborn and runs off with your tv, that's not my fault!
+
+The install will create a DanstukenPS folder next to your
+powershell profile script and copy in the files it finds
+in the src folder. It will add "sourcing" entries into
+the profile script for each script it installs.
