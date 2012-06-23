@@ -1,0 +1,4 @@
+This is just a set of files that contain functions to make doing stuff in powershell that bit easier.
+
+To make use of any of the scripts, edit the powershell profile file (see value of $profile) thus:
+. 'C:\path\to\the\ps1fileiwant.ps1'
